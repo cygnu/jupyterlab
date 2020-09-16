@@ -1,0 +1,6 @@
+.DS_Store
+.vagrant/*
+work/*
+!/work/python/.gitkeep
+!/work/r/.gitkeep
+ubuntu-xenial-16.04-cloudimg-console.log

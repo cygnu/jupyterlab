@@ -1,0 +1,16 @@
+version: "3.3"
+services:
+  jupyterlab:
+    # https://hub.docker.com/r/jupyter/datascience-notebookからのimage
+    image: jupyter/datascience-notebook
+    container_name: docker-jupyterlab
+    # ホスト内のworkディレクトリとコンテナ内の/home/jovyan/workディレクトリを紐付けさせる
+    volumes:
+      - ./work:/home/jovyan/work
+    ports:
+      - '8888:8888'
+    # 環境変数の設定
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    # JupyterLabに接続する為のコマンドを実行
+    command: start-notebook.sh --NoetebookApp.token=''
