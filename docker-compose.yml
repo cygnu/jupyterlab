@@ -13,4 +13,4 @@ services:
     environment:
       - JUPYTER_ENABLE_LAB=yes
     # JupyterLabに接続する為のコマンドを実行
-    command: start-notebook.sh --NoetebookApp.token=''
+    command: start-notebook.sh --NotebookApp.token=''
