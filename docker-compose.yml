@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   jupyterlab:
-    # https://hub.docker.com/r/jupyter/datascience-notebookからのimage
+    # https://hub.docker.com/r/jupyter/datascience-notebookからpullしたimage
     image: jupyter/datascience-notebook
     container_name: docker-jupyterlab
     # ホスト内のworkディレクトリとコンテナ内の/home/jovyan/workディレクトリを紐付けさせる

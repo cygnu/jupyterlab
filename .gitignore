@@ -1,7 +1,5 @@
 .DS_Store
-.vagrant/*
 /work/python/*
 !/work/python/.gitkeep
 /work/r/*
 !/work/r/.gitkeep
-ubuntu-xenial-16.04-cloudimg-console.log
