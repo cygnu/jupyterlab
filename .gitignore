@@ -1,5 +1,3 @@
 .DS_Store
-/work/python/*
-!/work/python/.gitkeep
-/work/r/*
-!/work/r/.gitkeep
+/work/*
+!/work/.gitkeep
